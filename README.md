@@ -5,6 +5,8 @@ A tiny full-stack app where you create a random dog character with a real dog ph
 This project was built for the **Full Stack Open (University of Helsinki)** course, specifically for the **Continuous Integration** section:
 https://courses.mooc.fi/org/uh-cs/courses/full-stack-open-continuous-integration
 
+Other exercises are of the course are here: https://github.com/jasminlei/fs-pokedex-ci
+
 The app is deployed here: https://create-a-dog.fly.dev/
 
 ## Stack
