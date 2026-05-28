@@ -1,0 +1,8 @@
+**/node_modules
+**/dist
+**/dist-ssr
+**/.git
+**/.DS_Store
+**/.vscode
+**/.env
+**/.env.*
