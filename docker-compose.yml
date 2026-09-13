@@ -1,0 +1,22 @@
+services:
+  client:
+    image: create-a-dog-client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+
+  server:
+    image: create-a-dog-server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    depends_on:
+      - client
+      - server
